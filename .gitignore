@@ -1,0 +1,31 @@
+# 标准文件库 — Git 管理规则
+
+# PDF 文件不提交（体积大 + 版权限制）
+# 文件清单详见 Excel 索引: 00_索引与规范/标准索引_Standards_Index_v3_*.xlsx
+*.pdf
+*.PDF
+
+# 二进制文档文件
+*.docx
+*.doc
+*.DOCX
+*.DOC
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.pyc
+__pycache__/
+
+# 临时文件
+*.tmp
+*.swp
+*~
+
+# 例外：允许索引目录中的非 PDF 文件
+!00_索引与规范/*.xlsx
+!00_索引与规范/*.md
+
+# 允许根目录的 README 和 CLAUDE
+!README.md
+!CLAUDE.md
